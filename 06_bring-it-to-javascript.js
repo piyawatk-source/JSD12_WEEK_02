@@ -14,7 +14,7 @@ const products = [
   },
   {
     name: "Bentonite Cat Litter Lavender",
-    price: 120,
+    price: 130,
     inStock: true
   }
 ];
@@ -28,11 +28,18 @@ const cart = [
   },
   {
     productName: "Bentonite Cat Litter Lavender",
-    price: 120,
+    price: 130,
     quantity: 1
   }
 ];
 
+console.log("Product:");
 console.log(product);
+
+// show product list
+console.log("Products:");
 console.log(products);
+
+// show shopping cart
+console.log("Cart:");
 console.log(cart);
